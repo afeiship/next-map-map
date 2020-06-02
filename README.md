@@ -1,12 +1,26 @@
 # next-map-map
-> Map map method for next
+> Map map method for next.
 
-## install:
+## installation
 ```bash
-npm install -S afeiship/next-map-map --registry=https://registry.npm.taobao.org
+npm install -S @feizheng/next-map-map
 ```
 
-## usage:
+## usage
 ```js
-//DOCS here!
+import '@feizheng/next-map-map';
+
+const obj1 = {
+  name: ['fei'],
+  age: [100]
+};
+
+const rs1 = nx.mapMap(obj1, function (key, value) {
+  return {
+    key: key,
+    value: value[0]
+  }
+});
+
+// { name:'fei', age: 100 }
 ```

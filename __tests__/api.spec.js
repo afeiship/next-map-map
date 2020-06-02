@@ -1,10 +1,8 @@
-var assert = require('assert');
-var nx = require('next-js-core2');
+const nx = require('@feizheng/next-js-core2');
 require('../src/next-map-map');
 
-describe('next/mapMap', function () {
-
-  it('nx.mapMap', function () {
+describe('api.basic test', () => {
+  test('nx.mapMap', function () {
     var obj1 = {
       name: ['fei'],
       age: [100]
@@ -17,10 +15,7 @@ describe('next/mapMap', function () {
       }
     });
 
-    // console.log(rs1);
-
-    assert.equal(rs1.name, 'fei');
-    assert.equal(rs1.age, '100');
+    expect(rs1.name).toBe('fei');
+    expect(rs1.age).toBe(100);
   });
-
 });
