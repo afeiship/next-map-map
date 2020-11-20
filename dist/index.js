@@ -3,7 +3,7 @@
  * description: Map map method for next.
  * homepage: https://github.com/afeiship/next-map-map
  * version: 1.0.0
- * date: 2020-11-20 16:52:02
+ * date: 2020-11-20 16:55:18
  * license: MIT
  */
 
