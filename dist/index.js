@@ -2,13 +2,13 @@
  * name: @jswork/next-map-map
  * description: Map map method for next.
  * homepage: https://github.com/afeiship/next-map-map
- * version: 1.0.0
- * date: 2020-11-20 16:55:18
+ * version: 1.0.1
+ * date: 2021-01-06 22:22:03
  * license: MIT
  */
 
 (function () {
-  var global = global || this || window || Function('return this')();
+  var global = global || window || Function('return this')();
   var nx = global.nx || require('@jswork/next');
 
   nx.mapMap = function (inObj, inCallback, inContext) {
