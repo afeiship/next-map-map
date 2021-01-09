@@ -2,8 +2,8 @@
  * name: @jswork/next-map-map
  * description: Map map method for next.
  * homepage: https://github.com/afeiship/next-map-map
- * version: 1.0.1
- * date: 2021-01-06 22:22:03
+ * version: 1.0.2
+ * date: 2021-01-09 16:29:21
  * license: MIT
  */
 
